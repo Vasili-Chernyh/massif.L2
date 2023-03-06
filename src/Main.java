@@ -29,8 +29,8 @@ public class Main {
     public static void task2 () {
         int[] arr = generateRandomArray();
         System.out.println("Задача 2");
-        int max = 99_999;
-        int min = 200_001;
+        int min = arr[0];
+        int max = arr[0];
         for (final int current : arr) {
             System.out.print(current + ",");
             if (current > max){
